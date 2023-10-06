@@ -1,5 +1,4 @@
 #include <unistd.h>
-
 /**
  * main - This prints exactly the input on it.
  * Return: Always 1.
