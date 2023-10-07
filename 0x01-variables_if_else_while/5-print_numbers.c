@@ -10,14 +10,12 @@ int main(void)
 {
     char letter;
 
-    // Print lowercase letters
     for (letter = 'a'; letter <= 'z'; letter++)
     {
         if (letter != 'e' && letter != 'q')
             putchar(letter);
     }
 
-    // Print uppercase letters
     for (letter = 'A'; letter <= 'Z'; letter++)
     {
         if (letter != 'E' && letter != 'Q')
