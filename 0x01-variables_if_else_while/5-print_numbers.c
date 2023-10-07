@@ -1,9 +1,21 @@
 #include <stdio.h>
 
-int main() {
-    for (int i = 0; i < 10; i++) {
-        printf("%d\n", i);
+/**
+ * main - Program that prints the alphabet in lowercase and uppercase.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char lowercase, uppercase;
+
+    for (lowercase = 'a', uppercase = 'A'; lowercase <= 'z'; lowercase++, uppercase++)
+    {
+        putchar(lowercase);
+        putchar(uppercase);
     }
 
-    return 0;
+    putchar('\n');
+
+    return (0);
 }
